@@ -2,8 +2,7 @@ import UIKit
 
 public class CrumbView: UIView {
     
-    public var particleImage: UIImage?
-    
+    open var particleImage: UIImage?
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
