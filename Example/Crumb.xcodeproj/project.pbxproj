@@ -13,8 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		68BDFEC617B09FDEA9CB9337 /* Pods_Crumb_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80091FB350A7A05CD9347E4 /* Pods_Crumb_Tests.framework */; };
-		C2C5F43994F5B2B01296F3F5 /* Pods_Crumb_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277F48D7B20C76F4E11CBA61 /* Pods_Crumb_Example.framework */; };
+		B565251B2BBD80CD00993D08 /* Pods_Crumb_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277F48D7B20C76F4E11CBA61 /* Pods_Crumb_Example.framework */; };
+		B565251C2BBD80CD00993D08 /* Pods_Crumb_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 277F48D7B20C76F4E11CBA61 /* Pods_Crumb_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B565251E2BBD80E200993D08 /* Pods_Crumb_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80091FB350A7A05CD9347E4 /* Pods_Crumb_Tests.framework */; };
+		B565251F2BBD80E200993D08 /* Pods_Crumb_Tests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D80091FB350A7A05CD9347E4 /* Pods_Crumb_Tests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,31 @@
 			remoteInfo = Crumb;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B565251D2BBD80CD00993D08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B565251C2BBD80CD00993D08 /* Pods_Crumb_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56525202BBD80E200993D08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B565251F2BBD80E200993D08 /* Pods_Crumb_Tests.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1FBFE040C0002E62D4E97101 /* Crumb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Crumb.podspec; path = ../Crumb.podspec; sourceTree = "<group>"; };
@@ -54,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C5F43994F5B2B01296F3F5 /* Pods_Crumb_Example.framework in Frameworks */,
+				B565251B2BBD80CD00993D08 /* Pods_Crumb_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BDFEC617B09FDEA9CB9337 /* Pods_Crumb_Tests.framework in Frameworks */,
+				B565251E2BBD80E200993D08 /* Pods_Crumb_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +198,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				7AECD14CE4952C7AFF18F0E2 /* [CP] Embed Pods Frameworks */,
+				B565251D2BBD80CD00993D08 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,6 +217,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				B56525202BBD80E200993D08 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,10 +241,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AU24ZRJ649;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AU24ZRJ649;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -480,6 +511,7 @@
 			baseConfigurationReference = 4550D59E1C2E2DAA23D45BF6 /* Pods-Crumb_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AU24ZRJ649;
 				INFOPLIST_FILE = Crumb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -495,6 +527,7 @@
 			baseConfigurationReference = ED61379588886B74C9B18EFD /* Pods-Crumb_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AU24ZRJ649;
 				INFOPLIST_FILE = Crumb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F39A53AE048860CEF51F7D24 /* Pods-Crumb_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AU24ZRJ649;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 739C0097BBCC91190514B845 /* Pods-Crumb_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AU24ZRJ649;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -11,9 +11,9 @@
 		4F58AFA433900AFEB88FCEA09CFBF684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		547B2B21E633994A351ED42344684428 /* Crumb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C994361D5464B2C0ACB352396CEE4 /* Crumb-dummy.m */; };
 		60B6CCB9367E2EB4BE63619DD15ECDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6AE5A23A3B718DCB60CDA923019F62B4 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
 		7748FC9862D4A4688723671A23E6F509 /* Pods-Crumb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC45F39E4EB4C7799D74FBB02B79D33 /* Pods-Crumb_Example-dummy.m */; };
 		8642D765AE9D3B54B9435437ED3BD040 /* Crumb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077C7CF26FD77BC534C49EB96FF46E1 /* Crumb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56525192BBD80A500993D08 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
 		BE605E942FD4E6494954665D1096F5D1 /* Pods-Crumb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7CB95432398E8FAB921B0E33496959D /* Pods-Crumb_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71D7EC35DCBCB2C4EB42D030DC51CA /* Pods-Crumb_Tests-dummy.m */; };
 		FFB24589119994BE85C50B0F0F9DD508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -312,7 +312,7 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -361,8 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56525192BBD80A500993D08 /* CrumbView.swift in Sources */,
 				547B2B21E633994A351ED42344684428 /* Crumb-dummy.m in Sources */,
-				6AE5A23A3B718DCB60CDA923019F62B4 /* CrumbView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +727,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,

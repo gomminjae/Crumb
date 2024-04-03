@@ -2,6 +2,8 @@ import UIKit
 
 public class CrumbView: UIView {
     
+    public var particleImage: UIImage?
+    
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,7 +22,7 @@ public class CrumbView: UIView {
         self.layer.addSublayer(particleEmitter)
     }
     
-    @objc func handleTap(sender: UIPanGestureRecognizer) {
+    @objc func handlePin(sender: UIPanGestureRecognizer) {
         
         particleEmitter.emitterPosition = sender.location(in: self)
         
@@ -28,17 +30,31 @@ public class CrumbView: UIView {
             particleEmitter.lifetime = 0
         } else if sender.state == .began {
             // Here you can set the image you want to display as particles
-            if let image = UIImage(named: "your_image_name") {
-                showParticles(with: image)
-            }
+            showParticles(with: particleImage!)
             particleEmitter.lifetime = 1.0
         }
     }
+    @objc func handleTap(sender: UITapGestureRecognizer) {
+           particleEmitter.emitterPosition = sender.location(in: self)
+           
+           if sender.state == .began {
+               // Here you can set the image you want to display as particles
+               showParticles(with: particleImage!)
+               particleEmitter.lifetime = 1.0
+           }
+       }
+    
     
     // MARK: - Properties
     lazy var panGestureRecognizer:
     UIPanGestureRecognizer = {
         let gestureRecognizer = UIPanGestureRecognizer()
+        gestureRecognizer.addTarget(self, action: #selector(handlePin))
+        return gestureRecognizer
+    }()
+    
+    lazy var tapGestureRecognizer: UITapGestureRecognizer = {
+        let gestureRecognizer = UITapGestureRecognizer()
         gestureRecognizer.addTarget(self, action: #selector(handleTap))
         return gestureRecognizer
     }()
@@ -50,12 +66,13 @@ public class CrumbView: UIView {
         return emitter
     }()
     
+    
     let particle = Particle()
     
     // MARK: - UI Setup
     func setupUI() {
-        //self.backgroundColor = .black
         self.addGestureRecognizer(panGestureRecognizer)
+        self.addGestureRecognizer(tapGestureRecognizer)
     }
     
 }
