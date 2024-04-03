@@ -1,6 +1,4 @@
 # Crumb
-
-[![CI Status](https://img.shields.io/travis/gomminjae/Crumb.svg?style=flat)](https://travis-ci.org/gomminjae/Crumb)
 [![Version](https://img.shields.io/cocoapods/v/Crumb.svg?style=flat)](https://cocoapods.org/pods/Crumb)
 [![License](https://img.shields.io/cocoapods/l/Crumb.svg?style=flat)](https://cocoapods.org/pods/Crumb)
 [![Platform](https://img.shields.io/cocoapods/p/Crumb.svg?style=flat)](https://cocoapods.org/pods/Crumb)
