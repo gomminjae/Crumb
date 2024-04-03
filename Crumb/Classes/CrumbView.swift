@@ -15,8 +15,8 @@ public class CrumbView: UIView {
     // MARK: - Actions
     public func showParticles(with image: UIImage) {
     let resizedImage: UIImage = image.resized(to: CGSize(width: 20, height: 20))
-        starParticle.contents = resizedImage.cgImage
-        particleEmitter.emitterCells = [starParticle]
+        particle.contents = resizedImage.cgImage
+        particleEmitter.emitterCells = [particle]
         self.layer.addSublayer(particleEmitter)
     }
     
@@ -50,7 +50,7 @@ public class CrumbView: UIView {
         return emitter
     }()
     
-    let starParticle = StarParticle()
+    let particle = Particle()
     
     // MARK: - UI Setup
     func setupUI() {
@@ -60,7 +60,7 @@ public class CrumbView: UIView {
     
 }
 
-public class StarParticle: CAEmitterCell {
+public class Particle: CAEmitterCell {
     
     public override init() {
         super.init()

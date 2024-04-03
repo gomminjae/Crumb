@@ -1,0 +1,6 @@
+framework module Crumb {
+  umbrella header "Crumb-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Crumb (0.1.0)
+
+DEPENDENCIES:
+  - Crumb (from `../`)
+
+EXTERNAL SOURCES:
+  Crumb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Crumb: ef80a4f4dafc31880c1077092baf9af485252821
+
+PODFILE CHECKSUM: 28e87095690b7c68aee12ea2e244dfc34ca63809
+
+COCOAPODS: 1.14.3
