@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(crumbView)
-        crumbView.particleImage = UIImage(named: "sakura")
+        crumbView.particleImage = UIImage(named: "bread")
         crumbView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             crumbView.topAnchor.constraint(equalTo: view.topAnchor),

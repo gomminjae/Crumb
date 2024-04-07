@@ -34,14 +34,19 @@ public class CrumbView: UIView {
         }
     }
     @objc func handleTap(sender: UITapGestureRecognizer) {
-           particleEmitter.emitterPosition = sender.location(in: self)
-           
-           if sender.state == .began {
-               // Here you can set the image you want to display as particles
-               showParticles(with: particleImage!)
-               particleEmitter.lifetime = 1.0
-           }
-       }
+        guard sender.state == .ended else { return }
+        
+        particleEmitter.emitterPosition = sender.location(in: self)
+        
+        // Here you can set the image you want to display as particles
+        showParticles(with: particleImage!)
+        particleEmitter.lifetime = 0.5
+        particle.emissionRange = CGFloat.pi * 2 // 360도// 파티클 수 제한
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.particleEmitter.lifetime = 0 // 파티클 수명 설정
+        }
+    }
+
     
     
     // MARK: - Properties
@@ -94,13 +99,5 @@ public class Particle: CAEmitterCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-}
-extension UIImage {
-    func resized(to newSize: CGSize) -> UIImage {
-        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
-        defer { UIGraphicsEndImageContext() }
-        draw(in: CGRect(origin: .zero, size: newSize))
-        return UIGraphicsGetImageFromCurrentImageContext() ?? self
     }
 }

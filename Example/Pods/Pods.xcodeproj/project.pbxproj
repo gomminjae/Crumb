@@ -14,6 +14,11 @@
 		7748FC9862D4A4688723671A23E6F509 /* Pods-Crumb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC45F39E4EB4C7799D74FBB02B79D33 /* Pods-Crumb_Example-dummy.m */; };
 		8642D765AE9D3B54B9435437ED3BD040 /* Crumb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077C7CF26FD77BC534C49EB96FF46E1 /* Crumb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B56525192BBD80A500993D08 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
+		B59233E12BC2D4EA007D7F02 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
+		B59233E22BC2D4EA007D7F02 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
+		B59233E42BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
+		B59233E52BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
+		B59233E62BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
 		BE605E942FD4E6494954665D1096F5D1 /* Pods-Crumb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7CB95432398E8FAB921B0E33496959D /* Pods-Crumb_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71D7EC35DCBCB2C4EB42D030DC51CA /* Pods-Crumb_Tests-dummy.m */; };
 		FFB24589119994BE85C50B0F0F9DD508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -57,6 +62,7 @@
 		8E34B7BAA3BC9A307AF609C1011DCC8F /* Crumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crumb.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAC45F39E4EB4C7799D74FBB02B79D33 /* Pods-Crumb_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crumb_Example-dummy.m"; sourceTree = "<group>"; };
+		B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		BBE56B38812C6824FFDDD54E557F8C62 /* Pods-Crumb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crumb_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2A02EAC1DC0BDCF0F227462143158BA /* Crumb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crumb-prefix.pch"; sourceTree = "<group>"; };
 		C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Crumb_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -152,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */,
+				B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */,
 				ACC50D7B3BC1AD78D8914FC06FBE316B /* Pod */,
 				E805301DEA84183275B1F84C56773305 /* Support Files */,
 			);
@@ -361,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59233E42BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
 				B56525192BBD80A500993D08 /* CrumbView.swift in Sources */,
 				547B2B21E633994A351ED42344684428 /* Crumb-dummy.m in Sources */,
 			);
@@ -370,6 +378,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59233E52BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
+				B59233E12BC2D4EA007D7F02 /* CrumbView.swift in Sources */,
 				7748FC9862D4A4688723671A23E6F509 /* Pods-Crumb_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59233E62BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
+				B59233E22BC2D4EA007D7F02 /* CrumbView.swift in Sources */,
 				F7CB95432398E8FAB921B0E33496959D /* Pods-Crumb_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
