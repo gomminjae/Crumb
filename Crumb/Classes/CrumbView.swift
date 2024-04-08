@@ -40,7 +40,8 @@ public class CrumbView: UIView {
         
         // Here you can set the image you want to display as particles
         showParticles(with: particleImage!)
-        particleEmitter.lifetime = 0.5
+        particleEmitter.lifetime = 0.1
+        particleEmitter.birthRate = 1
         particle.emissionRange = CGFloat.pi * 2 // 360도// 파티클 수 제한
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.particleEmitter.lifetime = 0 // 파티클 수명 설정

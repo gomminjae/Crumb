@@ -55,7 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1FBFE040C0002E62D4E97101 /* Crumb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Crumb.podspec; path = ../Crumb.podspec; sourceTree = "<group>"; };
+		1FBFE040C0002E62D4E97101 /* Crumb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Crumb.podspec; path = ../Crumb.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		277F48D7B20C76F4E11CBA61 /* Pods_Crumb_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crumb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4550D59E1C2E2DAA23D45BF6 /* Pods-Crumb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crumb_Example.debug.xcconfig"; path = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Crumb_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crumb_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -436,6 +436,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -495,6 +496,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -526,6 +528,10 @@
 					"@executable_path/Frameworks",
 				);
 				MODULE_NAME = ExampleApp;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

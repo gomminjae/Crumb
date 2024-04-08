@@ -4,10 +4,16 @@
 //
 //  Created by gomminjae on 04/03/2024.
 //  Copyright (c) 2024 gomminjae. All rights reserved.
-//
+// 
 
 import UIKit
 import Crumb
+
+extension UIViewController {
+    @objc func injected() {
+        viewDidLoad()
+    }
+}
 
 class ViewController: UIViewController {
     
@@ -16,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(crumbView)
-        crumbView.particleImage = UIImage(named: "bread")
+        crumbView.particleImage = UIImage(named: "sakura")
         crumbView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             crumbView.topAnchor.constraint(equalTo: view.topAnchor),
