@@ -3,12 +3,14 @@
 [![License](https://img.shields.io/cocoapods/l/Crumb.svg?style=flat)](https://cocoapods.org/pods/Crumb)
 [![Platform](https://img.shields.io/cocoapods/p/Crumb.svg?style=flat)](https://cocoapods.org/pods/Crumb)
 
-## Example
+🍞 particle gesture animation
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## At a Glance 
 
-## Requirements
-
+```swift
+let crumbView = Crumbview()
+crumbView.particleImage = UIImage(named: "{your particle image}")
+```
 ## Installation
 
 Crumb is available through [CocoaPods](https://cocoapods.org). To install
