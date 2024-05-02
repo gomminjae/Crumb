@@ -3,22 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E6405484D088B51A2BBAAB74FCFB357 /* Pods-Crumb_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3664EC0A8F53408DCA3559C9E43EC67 /* Pods-Crumb_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CF7290AF54171C565417E61C1ECBE29 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF0B7D24428E2B3FC8A2D9A18F6F9A /* CrumbView.swift */; };
 		4F58AFA433900AFEB88FCEA09CFBF684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		547B2B21E633994A351ED42344684428 /* Crumb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C994361D5464B2C0ACB352396CEE4 /* Crumb-dummy.m */; };
+		58EEF83B68662E824D98BB43575F291A /* Crumb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FCB252F1950E6F854D4744DA5D618 /* Crumb-dummy.m */; };
 		60B6CCB9367E2EB4BE63619DD15ECDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7748FC9862D4A4688723671A23E6F509 /* Pods-Crumb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC45F39E4EB4C7799D74FBB02B79D33 /* Pods-Crumb_Example-dummy.m */; };
-		8642D765AE9D3B54B9435437ED3BD040 /* Crumb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8077C7CF26FD77BC534C49EB96FF46E1 /* Crumb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B56525192BBD80A500993D08 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
-		B59233E12BC2D4EA007D7F02 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
-		B59233E22BC2D4EA007D7F02 /* CrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */; };
-		B59233E42BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
-		B59233E52BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
-		B59233E62BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */; };
+		8642D765AE9D3B54B9435437ED3BD040 /* Crumb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D57B2F68D829E9B55679182D78167FCE /* Crumb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5931BFE2BE3C22200197E34 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5931BFD2BE3C22200197E34 /* UIImage+Extension.swift */; };
 		BE605E942FD4E6494954665D1096F5D1 /* Pods-Crumb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7CB95432398E8FAB921B0E33496959D /* Pods-Crumb_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71D7EC35DCBCB2C4EB42D030DC51CA /* Pods-Crumb_Tests-dummy.m */; };
 		FFB24589119994BE85C50B0F0F9DD508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,13 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		137B694AEC7D900127A454ADA8E6E5B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1546BE7BD85F28CF1F4DED5DF7EAE75B /* Crumb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Crumb.modulemap; sourceTree = "<group>"; };
+		007FCB252F1950E6F854D4744DA5D618 /* Crumb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Crumb-dummy.m"; sourceTree = "<group>"; };
+		0D9879F8F8B495B3895610B9B7747702 /* Pods-Crumb_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Crumb_Example"; path = Pods_Crumb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1606FF36E93F83FF391FDC9EBAC745D5 /* Pods-Crumb_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Crumb_Example.modulemap"; sourceTree = "<group>"; };
-		1CBE46959FD168B234101F130901AA33 /* Crumb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Crumb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBE46959FD168B234101F130901AA33 /* Crumb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Crumb; path = Crumb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		489B23115844146C1729700EAC9A80CE /* Pods-Crumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4BDC989E0B5DEF4B6D89563967DB5768 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		626A545A10833964D151C93FE3EDC1B9 /* Crumb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Crumb-Info.plist"; sourceTree = "<group>"; };
+		5814C970EE8A04B47F1042F5EFCA7CFC /* Crumb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crumb-prefix.pch"; sourceTree = "<group>"; };
 		64DA12972A54D9E4327B590B2E797258 /* Pods-Crumb_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crumb_Example-Info.plist"; sourceTree = "<group>"; };
 		66C70C6F41AFCF238A62E426D29148BB /* Pods-Crumb_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crumb_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66DE485FABDCEC9A18E01D80EA2A8DF3 /* Pods-Crumb_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crumb_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -57,23 +52,26 @@
 		6BAD454A7B01BA9E8718C35C94CC7977 /* Pods-Crumb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crumb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71D6FE5F305DC28BB1DCA92B55AD7180 /* Pods-Crumb_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crumb_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D9C994361D5464B2C0ACB352396CEE4 /* Crumb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Crumb-dummy.m"; sourceTree = "<group>"; };
-		8077C7CF26FD77BC534C49EB96FF46E1 /* Crumb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crumb-umbrella.h"; sourceTree = "<group>"; };
-		8E34B7BAA3BC9A307AF609C1011DCC8F /* Crumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crumb.debug.xcconfig; sourceTree = "<group>"; };
+		7C383756FD36318EA30C741E49A060BD /* Crumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crumb.debug.xcconfig; sourceTree = "<group>"; };
+		81FF0B7D24428E2B3FC8A2D9A18F6F9A /* CrumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrumbView.swift; path = Crumb/Classes/CrumbView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAC45F39E4EB4C7799D74FBB02B79D33 /* Pods-Crumb_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crumb_Example-dummy.m"; sourceTree = "<group>"; };
-		B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B5831941CECF12CAA784238381D360A3 /* Crumb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crumb.release.xcconfig; sourceTree = "<group>"; };
+		B5931BFD2BE3C22200197E34 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "Crumb/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
 		BBE56B38812C6824FFDDD54E557F8C62 /* Pods-Crumb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crumb_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2A02EAC1DC0BDCF0F227462143158BA /* Crumb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crumb-prefix.pch"; sourceTree = "<group>"; };
+		C1293602585A63DC9DD3A05958376632 /* Crumb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Crumb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C858505AA37514B2C827CB8A2B064B40 /* Crumb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Crumb.modulemap; sourceTree = "<group>"; };
 		C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Crumb_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB29F960556B9B84E3874B910B80F14E /* Crumb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Crumb-Info.plist"; sourceTree = "<group>"; };
 		D3664EC0A8F53408DCA3559C9E43EC67 /* Pods-Crumb_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Crumb_Example-umbrella.h"; sourceTree = "<group>"; };
-		DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrumbView.swift; path = Crumb/Classes/CrumbView.swift; sourceTree = "<group>"; };
-		DBD417822EBB163697042821C882D1EE /* Crumb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Crumb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D57B2F68D829E9B55679182D78167FCE /* Crumb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crumb-umbrella.h"; sourceTree = "<group>"; };
 		E2525BE382D7F74540712CE358D30669 /* Pods-Crumb_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Crumb_Tests.modulemap"; sourceTree = "<group>"; };
 		E43A1D416214572F9437721F08467357 /* Pods-Crumb_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crumb_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E4AF72F658AAFF7E8388CAED28473D93 /* Pods-Crumb_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crumb_Tests-Info.plist"; sourceTree = "<group>"; };
 		E6E228F966223D41C7AD04667CCE6697 /* Pods-Crumb_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Crumb_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F2B4049569D392E42E50B8E0F267E800 /* Crumb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crumb.release.xcconfig; sourceTree = "<group>"; };
+		F1B7B7713C341FE906A9A548D9E431AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F62A127AC2F7B5F3A65280C2B3C306EB /* Pods-Crumb_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Crumb_Tests"; path = Pods_Crumb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE479CF6DE50F4B5DB1C6A19ECC748B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +105,7 @@
 		128E45CD4E74A3F897ADAA80DD721182 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				943F6732F9F220207E8FF6657FF81FDD /* Crumb */,
+				F4387382CF691E46D9DB66FD374F1501 /* Crumb */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -127,6 +125,21 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		58C5BDBA09926E2CF3290E028A68D185 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C858505AA37514B2C827CB8A2B064B40 /* Crumb.modulemap */,
+				007FCB252F1950E6F854D4744DA5D618 /* Crumb-dummy.m */,
+				CB29F960556B9B84E3874B910B80F14E /* Crumb-Info.plist */,
+				5814C970EE8A04B47F1042F5EFCA7CFC /* Crumb-prefix.pch */,
+				D57B2F68D829E9B55679182D78167FCE /* Crumb-umbrella.h */,
+				7C383756FD36318EA30C741E49A060BD /* Crumb.debug.xcconfig */,
+				B5831941CECF12CAA784238381D360A3 /* Crumb.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Crumb";
 			sourceTree = "<group>";
 		};
 		6A224E96BF0A6FA970C15DCB9A16C55C /* Pods-Crumb_Example */ = {
@@ -149,31 +162,11 @@
 		90BBAA27FC3CB44AE30C9F4F8FD4550B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CBE46959FD168B234101F130901AA33 /* Crumb.framework */,
+				1CBE46959FD168B234101F130901AA33 /* Crumb */,
+				0D9879F8F8B495B3895610B9B7747702 /* Pods-Crumb_Example */,
+				F62A127AC2F7B5F3A65280C2B3C306EB /* Pods-Crumb_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		943F6732F9F220207E8FF6657FF81FDD /* Crumb */ = {
-			isa = PBXGroup;
-			children = (
-				DA48AE23E35A455A0B255F37FA4A551E /* CrumbView.swift */,
-				B59233E32BC2D99E007D7F02 /* UIImage+Extension.swift */,
-				ACC50D7B3BC1AD78D8914FC06FBE316B /* Pod */,
-				E805301DEA84183275B1F84C56773305 /* Support Files */,
-			);
-			name = Crumb;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		ACC50D7B3BC1AD78D8914FC06FBE316B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DBD417822EBB163697042821C882D1EE /* Crumb.podspec */,
-				4BDC989E0B5DEF4B6D89563967DB5768 /* LICENSE */,
-				137B694AEC7D900127A454ADA8E6E5B3 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -195,19 +188,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E805301DEA84183275B1F84C56773305 /* Support Files */ = {
+		E1E875D0E987E82AD5273BF93BEBFE94 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1546BE7BD85F28CF1F4DED5DF7EAE75B /* Crumb.modulemap */,
-				7D9C994361D5464B2C0ACB352396CEE4 /* Crumb-dummy.m */,
-				626A545A10833964D151C93FE3EDC1B9 /* Crumb-Info.plist */,
-				C2A02EAC1DC0BDCF0F227462143158BA /* Crumb-prefix.pch */,
-				8077C7CF26FD77BC534C49EB96FF46E1 /* Crumb-umbrella.h */,
-				8E34B7BAA3BC9A307AF609C1011DCC8F /* Crumb.debug.xcconfig */,
-				F2B4049569D392E42E50B8E0F267E800 /* Crumb.release.xcconfig */,
+				C1293602585A63DC9DD3A05958376632 /* Crumb.podspec */,
+				FE479CF6DE50F4B5DB1C6A19ECC748B2 /* LICENSE */,
+				F1B7B7713C341FE906A9A548D9E431AD /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Crumb";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		EC9875908BE5CC856EC1FC9032C4A6F9 /* Pods-Crumb_Tests */ = {
@@ -224,6 +212,18 @@
 			);
 			name = "Pods-Crumb_Tests";
 			path = "Target Support Files/Pods-Crumb_Tests";
+			sourceTree = "<group>";
+		};
+		F4387382CF691E46D9DB66FD374F1501 /* Crumb */ = {
+			isa = PBXGroup;
+			children = (
+				B5931BFD2BE3C22200197E34 /* UIImage+Extension.swift */,
+				81FF0B7D24428E2B3FC8A2D9A18F6F9A /* CrumbView.swift */,
+				E1E875D0E987E82AD5273BF93BEBFE94 /* Pod */,
+				58C5BDBA09926E2CF3290E028A68D185 /* Support Files */,
+			);
+			name = Crumb;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +272,7 @@
 			);
 			name = "Pods-Crumb_Tests";
 			productName = Pods_Crumb_Tests;
+			productReference = F62A127AC2F7B5F3A65280C2B3C306EB /* Pods-Crumb_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		31EFFFDE646C3EFD699F2A8AC730671A /* Pods-Crumb_Example */ = {
@@ -290,6 +291,7 @@
 			);
 			name = "Pods-Crumb_Example";
 			productName = Pods_Crumb_Example;
+			productReference = 0D9879F8F8B495B3895610B9B7747702 /* Pods-Crumb_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		57C4DEFD7574E1184B13848A9851C332 /* Crumb */ = {
@@ -297,7 +299,7 @@
 			buildConfigurationList = E8E98C5233E29D28721D7A3CDFBC38F5 /* Build configuration list for PBXNativeTarget "Crumb" */;
 			buildPhases = (
 				3DA3EA5C8DF20E0F2E1C71FADC8ED3A8 /* Headers */,
-				0B4D079F3014A572F7FC54E757584F85 /* Sources */,
+				436089360D2FA0FB0E4BE22598B11D98 /* Sources */,
 				720553A2D7748200516337B35C435AD2 /* Frameworks */,
 				5D02A37E074481E0982305D4252CCA93 /* Resources */,
 			);
@@ -307,7 +309,7 @@
 			);
 			name = Crumb;
 			productName = Crumb;
-			productReference = 1CBE46959FD168B234101F130901AA33 /* Crumb.framework */;
+			productReference = 1CBE46959FD168B234101F130901AA33 /* Crumb */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +322,7 @@
 				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -364,13 +366,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B4D079F3014A572F7FC54E757584F85 /* Sources */ = {
+		436089360D2FA0FB0E4BE22598B11D98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59233E42BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
-				B56525192BBD80A500993D08 /* CrumbView.swift in Sources */,
-				547B2B21E633994A351ED42344684428 /* Crumb-dummy.m in Sources */,
+				B5931BFE2BE3C22200197E34 /* UIImage+Extension.swift in Sources */,
+				58EEF83B68662E824D98BB43575F291A /* Crumb-dummy.m in Sources */,
+				4CF7290AF54171C565417E61C1ECBE29 /* CrumbView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59233E52BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
-				B59233E12BC2D4EA007D7F02 /* CrumbView.swift in Sources */,
 				7748FC9862D4A4688723671A23E6F509 /* Pods-Crumb_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59233E62BC2D99E007D7F02 /* UIImage+Extension.swift in Sources */,
-				B59233E22BC2D4EA007D7F02 /* CrumbView.swift in Sources */,
 				F7CB95432398E8FAB921B0E33496959D /* Pods-Crumb_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,74 +410,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A89E9CCCF8B83C3275ED17DA0DE30BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BA3A2EB8C7A04D7F93C4F7B55B70336 /* Pods-Crumb_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		72F8FCA40ABE84F83871E41FB75A99E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BAD454A7B01BA9E8718C35C94CC7977 /* Pods-Crumb_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -517,7 +448,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -530,21 +460,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		81E859EFFC55AB36441B1F469C591CBD /* Debug */ = {
+		6200A6B699302DF49A97C242C3CD4668 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E34B7BAA3BC9A307AF609C1011DCC8F /* Crumb.debug.xcconfig */;
+			baseConfigurationReference = B5831941CECF12CAA784238381D360A3 /* Crumb.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -554,12 +486,90 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Crumb/Crumb-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Crumb/Crumb-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Crumb/Crumb.modulemap";
+				PRODUCT_MODULE_NAME = Crumb;
+				PRODUCT_NAME = Crumb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79FDCC660D66005F930A6F9DFF527A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAD454A7B01BA9E8718C35C94CC7977 /* Pods-Crumb_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80531CE25F051052B5405EDF46F13A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C383756FD36318EA30C741E49A060BD /* Crumb.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Crumb/Crumb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Crumb/Crumb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Crumb/Crumb.modulemap";
 				PRODUCT_MODULE_NAME = Crumb;
 				PRODUCT_NAME = Crumb;
@@ -573,11 +583,12 @@
 			};
 			name = Debug;
 		};
-		839D145E113256675CC5CAD25EC16AE1 /* Release */ = {
+		805679739D441D4A37FECC8E244035B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 489B23115844146C1729700EAC9A80CE /* Pods-Crumb_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -589,8 +600,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Tests/Pods-Crumb_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -601,18 +616,18 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B77C3DE5557A2765C8AFD8FC7CD51E54 /* Release */ = {
+		AC6CBC3A212C6FA498465DC13BF0CF8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBE56B38812C6824FFDDD54E557F8C62 /* Pods-Crumb_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -624,8 +639,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -642,7 +661,45 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		F4ADE74B9E27F8CC686885D7EEBF483D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA3A2EB8C7A04D7F93C4F7B55B70336 /* Pods-Crumb_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -680,7 +737,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -696,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -709,47 +765,14 @@
 			};
 			name = Debug;
 		};
-		FD6CBBA9D7142C1E33CE7E7B5F17942E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B4049569D392E42E50B8E0F267E800 /* Crumb.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTING_SEARCH_PATHS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Crumb/Crumb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Crumb/Crumb-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Crumb/Crumb.modulemap";
-				PRODUCT_MODULE_NAME = Crumb;
-				PRODUCT_NAME = Crumb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +780,8 @@
 		8351B3498C6C460C9691C29DBE90B02E /* Build configuration list for PBXNativeTarget "Pods-Crumb_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72F8FCA40ABE84F83871E41FB75A99E0 /* Debug */,
-				839D145E113256675CC5CAD25EC16AE1 /* Release */,
+				79FDCC660D66005F930A6F9DFF527A78 /* Debug */,
+				805679739D441D4A37FECC8E244035B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -766,8 +789,8 @@
 		89710FD1987A31B92A9847DB6328C4B7 /* Build configuration list for PBXNativeTarget "Pods-Crumb_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A89E9CCCF8B83C3275ED17DA0DE30BF /* Debug */,
-				B77C3DE5557A2765C8AFD8FC7CD51E54 /* Release */,
+				F4ADE74B9E27F8CC686885D7EEBF483D /* Debug */,
+				AC6CBC3A212C6FA498465DC13BF0CF8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,8 +798,8 @@
 		E8E98C5233E29D28721D7A3CDFBC38F5 /* Build configuration list for PBXNativeTarget "Crumb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81E859EFFC55AB36441B1F469C591CBD /* Debug */,
-				FD6CBBA9D7142C1E33CE7E7B5F17942E /* Release */,
+				80531CE25F051052B5405EDF46F13A8C /* Debug */,
+				6200A6B699302DF49A97C242C3CD4668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
