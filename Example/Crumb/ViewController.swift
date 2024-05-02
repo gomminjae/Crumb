@@ -8,6 +8,8 @@
 
 import UIKit
 import Crumb
+import SnapKit
+
 
 extension UIViewController {
     @objc func injected() {
@@ -18,11 +20,14 @@ extension UIViewController {
 class ViewController: UIViewController {
     
     let crumbView = CrumbView()
+    let testView = UIView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let button = UIButton()
         view.addSubview(crumbView)
-        crumbView.particleImage = UIImage(named: "sakura")
+        crumbView.particleImage = UIImage(named: "bread")
+        crumbView.addSubview(button)
         crumbView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             crumbView.topAnchor.constraint(equalTo: view.topAnchor),
@@ -31,6 +36,11 @@ class ViewController: UIViewController {
             crumbView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
         // Do any additional setup after loading the view, typically from a nib.
+        button.backgroundColor = .red
+        button.snp.makeConstraints {
+            $0.centerX.equalTo(crumbView)
+            $0.centerY.equalTo(crumbView)
+        }
     }
 
     override func didReceiveMemoryWarning() {

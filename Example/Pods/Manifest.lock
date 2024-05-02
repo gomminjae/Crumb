@@ -1,8 +1,14 @@
 PODS:
   - Crumb (0.1.1)
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - Crumb (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   Crumb:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Crumb: 73d79323f8eacd7ca20d8b9688a6a284b6baf7a2
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: 0557ebdc9df0d9adc242bcfad8fe28c33ddb6654
+PODFILE CHECKSUM: 3c9295253d01af14edbaba316522856acead9d03
 
 COCOAPODS: 1.15.2

@@ -30,25 +30,29 @@ public class CrumbView: UIView {
         } else if sender.state == .began {
             // Here you can set the image you want to display as particles
             showParticles(with: particleImage!)
+            particleEmitter.birthRate = 1
             particleEmitter.lifetime = 1.0
         }
     }
     @objc func handleTap(sender: UITapGestureRecognizer) {
-        guard sender.state == .ended else { return }
-        
+        guard sender.state == .ended else {
+            return
+        }
         particleEmitter.emitterPosition = sender.location(in: self)
         
         // Here you can set the image you want to display as particles
         showParticles(with: particleImage!)
-        particleEmitter.lifetime = 0.1
-        particleEmitter.birthRate = 1
-        particle.emissionRange = CGFloat.pi * 2 // 360도// 파티클 수 제한
+        particleEmitter.lifetime = 0.5
+        particleEmitter.birthRate = 1 / 10
+        particle.emissionRange = CGFloat.pi * 2// 360도// 파티클 수 제한
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.particleEmitter.lifetime = 0 // 파티클 수명 설정
         }
     }
 
     
+
     
     // MARK: - Properties
     lazy var panGestureRecognizer:
@@ -66,7 +70,7 @@ public class CrumbView: UIView {
     
     lazy var particleEmitter: CAEmitterLayer = {
         let emitter = CAEmitterLayer()
-        emitter.emitterShape = .point
+        //emitter.emitterShape = .point
         emitter.renderMode = .additive
         return emitter
     }()

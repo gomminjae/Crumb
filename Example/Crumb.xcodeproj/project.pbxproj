@@ -343,10 +343,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Crumb_Example/Pods-Crumb_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Crumb/Crumb.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Crumb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

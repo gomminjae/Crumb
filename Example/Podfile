@@ -4,7 +4,7 @@ platform :ios, '16.0'
 
 target 'Crumb_Example' do
   pod 'Crumb', :path => '../'
-
+  pod 'SnapKit'
   target 'Crumb_Tests' do
     inherit! :search_paths
 
