@@ -1,28 +1,43 @@
 import XCTest
-import Crumb
+@testable import Crumb
 
 class Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
+    var crumbView: CrumbView!
+        
+        override func setUp() {
+            super.setUp()
+            crumbView = CrumbView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
         }
-    }
+        
+        override func tearDown() {
+            crumbView = nil
+            super.tearDown()
+        }
+        
+        func testParticleImageSetCorrectly() {
+            let testImage = UIImage(named: "shiba")
+            crumbView.particleImage = testImage
+            XCTAssertEqual(crumbView.particleImage, testImage)
+        }
+        
+        func testEnableGestures() {
+            crumbView.enableGestures = [.pin, .tap]
+            XCTAssertTrue(crumbView.gestureRecognizers?.contains(where: { $0 is UIPanGestureRecognizer }) ?? false)
+            XCTAssertTrue(crumbView.gestureRecognizers?.contains(where: { $0 is UITapGestureRecognizer }) ?? false)
+        }
+        
+        func testHandlePin() {
+            crumbView.enableGestures = [.pin]
+            
+            let gestureRecognizer = crumbView.panGestureRecognizer
+            crumbView.handlePin(sender: gestureRecognizer)
+        }
+        
+        func testHandleTap() {
+            crumbView.enableGestures = [.tap]
+            
+            let gestureRecognizer = crumbView.tapGestureRecognizer
+            crumbView.handleTap(sender: gestureRecognizer)
+        }
     
 }
