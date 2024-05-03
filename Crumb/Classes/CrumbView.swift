@@ -1,5 +1,12 @@
 import UIKit
 
+
+
+public enum GestureType {
+    case pin
+    case tap
+}
+
 public class CrumbView: UIView {
     
     open var particleImage: UIImage?
@@ -7,6 +14,12 @@ public class CrumbView: UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
+    }
+    
+    public var enableGestures: [GestureType] = [] {
+        didSet {
+            configuteGestures()
+        }
     }
     
     required init?(coder: NSCoder) {
@@ -80,8 +93,22 @@ public class CrumbView: UIView {
     
     // MARK: - UI Setup
     func setupUI() {
-        self.addGestureRecognizer(panGestureRecognizer)
-        self.addGestureRecognizer(tapGestureRecognizer)
+//        self.addGestureRecognizer(panGestureRecognizer)
+//        self.addGestureRecognizer(tapGestureRecognizer)
+        configuteGestures()
+    }
+    
+    private func configuteGestures() {
+        self.gestureRecognizers?.forEach { self.removeGestureRecognizer($0) }
+        
+        for gestureType in enableGestures {
+            switch gestureType {
+            case .pin:
+                self.addGestureRecognizer(panGestureRecognizer)
+            case .tap:
+                self.addGestureRecognizer(tapGestureRecognizer)
+            }
+        }
     }
     
 }

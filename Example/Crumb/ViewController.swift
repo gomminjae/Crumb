@@ -26,7 +26,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let button = UIButton()
         view.addSubview(crumbView)
+        
         crumbView.particleImage = UIImage(named: "bread")
+        crumbView.enableGestures = [.pin,.tap]
         crumbView.addSubview(button)
         crumbView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
