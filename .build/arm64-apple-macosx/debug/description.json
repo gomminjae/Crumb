@@ -1,0 +1,390 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbPackageTests.xctest/Contents/MacOS/CrumbPackageTests",
+      "packagePath" : "/Users/minjae/Desktop/Crumb",
+      "productName" : "CrumbPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Crumb-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/sources",
+      "importPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/Sources/Crumb/Crumb.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Crumb",
+      "moduleOutputPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.swiftmodule",
+      "objects" : [
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "crumb"
+      ],
+      "outputFileMapPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/minjae/Desktop/Crumb/Sources/Crumb/Crumb.swift"
+      ],
+      "tempsPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CrumbTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/sources",
+      "importPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/Tests/CrumbTests/CrumbTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CrumbTests",
+      "moduleOutputPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.swiftmodule",
+      "objects" : [
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/CrumbTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "crumb"
+      ],
+      "outputFileMapPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/CrumbTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/minjae/Desktop/Crumb/Tests/CrumbTests/CrumbTests.swift"
+      ],
+      "tempsPath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Crumb" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Crumb",
+      "-package-name",
+      "crumb",
+      "-incremental",
+      "-c",
+      "/Users/minjae/Desktop/Crumb/Sources/Crumb/Crumb.swift",
+      "-I",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "crumb",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "CrumbTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CrumbTests",
+      "-package-name",
+      "crumb",
+      "-incremental",
+      "-c",
+      "/Users/minjae/Desktop/Crumb/Tests/CrumbTests/CrumbTests.swift",
+      "-I",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "crumb",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Crumb" : [
+
+    ],
+    "CrumbTests" : [
+      "Crumb"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/Sources/Crumb/Crumb.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/sources"
+    },
+    "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/CrumbTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minjae/Desktop/Crumb/Tests/CrumbTests/CrumbTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbTests.build/sources"
+    },
+    "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

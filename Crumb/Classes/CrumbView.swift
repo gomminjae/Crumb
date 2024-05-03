@@ -2,7 +2,7 @@ import UIKit
 
 
 
-public enum GestureType {
+public enum ActionType {
     case pin
     case tap
 }
@@ -16,9 +16,9 @@ public class CrumbView: UIView {
         setupUI()
     }
     
-    public var enableGestures: [GestureType] = [] {
+    public var enableGestures: [ActionType] = [] {
         didSet {
-            configuteGestures()
+            configuteActions()
         }
     }
     
@@ -43,7 +43,7 @@ public class CrumbView: UIView {
         } else if sender.state == .began {
             // Here you can set the image you want to display as particles
             showParticles(with: particleImage!)
-            particleEmitter.birthRate = 1
+            particleEmitter.birthRate = 30
             particleEmitter.lifetime = 1.0
         }
     }
@@ -56,7 +56,7 @@ public class CrumbView: UIView {
         // Here you can set the image you want to display as particles
         showParticles(with: particleImage!)
         particleEmitter.lifetime = 0.5
-        particleEmitter.birthRate = 1 / 10
+        particleEmitter.birthRate = 2
         particle.emissionRange = CGFloat.pi * 2// 360도// 파티클 수 제한
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
@@ -93,12 +93,10 @@ public class CrumbView: UIView {
     
     // MARK: - UI Setup
     func setupUI() {
-//        self.addGestureRecognizer(panGestureRecognizer)
-//        self.addGestureRecognizer(tapGestureRecognizer)
-        configuteGestures()
+        configuteActions()
     }
     
-    private func configuteGestures() {
+    private func configuteActions() {
         self.gestureRecognizers?.forEach { self.removeGestureRecognizer($0) }
         
         for gestureType in enableGestures {
@@ -117,12 +115,12 @@ public class Particle: CAEmitterCell {
     
     public override init() {
         super.init()
-        self.birthRate = 30
+        self.birthRate = 1
         self.lifetime = 1.0
         self.velocity = 100
         self.velocityRange = 50
         self.emissionLongitude = 90
-        self.emissionRange = .pi
+        self.emissionRange = .pi * 2
         self.spinRange = 5
         self.scale = 0.5
         self.scaleRange = 0.25

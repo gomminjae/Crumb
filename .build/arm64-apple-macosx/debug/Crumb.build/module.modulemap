@@ -1,0 +1,4 @@
+module Crumb {
+    header "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb-Swift.h"
+    requires objc
+}

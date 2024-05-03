@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/master.swiftdeps"
+  },
+  "/Users/minjae/Desktop/Crumb/Sources/Crumb/Crumb.swift": {
+    "dependencies": "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.d",
+    "object": "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.swift.o",
+    "swiftmodule": "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb~partial.swiftmodule",
+    "swift-dependencies": "/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/Crumb.build/Crumb.swiftdeps"
+  }
+}

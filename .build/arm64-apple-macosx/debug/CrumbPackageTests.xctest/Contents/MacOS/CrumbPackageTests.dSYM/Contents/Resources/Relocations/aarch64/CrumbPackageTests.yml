@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/minjae/Desktop/Crumb/.build/arm64-apple-macosx/debug/CrumbPackageTests.xctest/Contents/MacOS/CrumbPackageTests'
+relocations:
+  - { offsetInCU: 0x27, offset: 0xCF10C, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC11testExampleyyKF', symObjAddr: 0x0, symBinAddr: 0x1D88, symSize: 0x14 }
+  - { offsetInCU: 0x67, offset: 0xCF14C, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC11testExampleyyKFTo', symObjAddr: 0x14, symBinAddr: 0x1D9C, symSize: 0x100 }
+  - { offsetInCU: 0xB9, offset: 0xCF19E, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC10invocationABSo12NSInvocationCSg_tcfcTo', symObjAddr: 0x1D8, symBinAddr: 0x1F60, symSize: 0x38 }
+  - { offsetInCU: 0x10B, offset: 0xCF1F0, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC8selectorAB10ObjectiveC8SelectorV_tcfcTo', symObjAddr: 0x2BC, symBinAddr: 0x2044, symSize: 0x24 }
+  - { offsetInCU: 0x153, offset: 0xCF238, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAACABycfcTo', symObjAddr: 0x368, symBinAddr: 0x20F0, symSize: 0x20 }
+  - { offsetInCU: 0x186, offset: 0xCF26B, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAACMa', symObjAddr: 0x3D0, symBinAddr: 0x2158, symSize: 0x24 }
+  - { offsetInCU: 0x19A, offset: 0xCF27F, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x3F4, symBinAddr: 0x217C, symSize: 0x6C }
+  - { offsetInCU: 0x264, offset: 0xCF349, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC11testExampleyyKF', symObjAddr: 0x0, symBinAddr: 0x1D88, symSize: 0x14 }
+  - { offsetInCU: 0x28F, offset: 0xCF374, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC10invocationABSo12NSInvocationCSg_tcfC', symObjAddr: 0x114, symBinAddr: 0x1E9C, symSize: 0x48 }
+  - { offsetInCU: 0x2A3, offset: 0xCF388, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC10invocationABSo12NSInvocationCSg_tcfc', symObjAddr: 0x15C, symBinAddr: 0x1EE4, symSize: 0x7C }
+  - { offsetInCU: 0x2F2, offset: 0xCF3D7, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC8selectorAB10ObjectiveC8SelectorV_tcfC', symObjAddr: 0x210, symBinAddr: 0x1F98, symSize: 0x34 }
+  - { offsetInCU: 0x306, offset: 0xCF3EB, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAAC8selectorAB10ObjectiveC8SelectorV_tcfc', symObjAddr: 0x244, symBinAddr: 0x1FCC, symSize: 0x78 }
+  - { offsetInCU: 0x337, offset: 0xCF41C, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAACABycfC', symObjAddr: 0x2E0, symBinAddr: 0x2068, symSize: 0x24 }
+  - { offsetInCU: 0x34B, offset: 0xCF430, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAACABycfc', symObjAddr: 0x304, symBinAddr: 0x208C, symSize: 0x64 }
+  - { offsetInCU: 0x36F, offset: 0xCF454, size: 0x8, addend: 0x0, symName: '_$s10CrumbTestsAACfD', symObjAddr: 0x388, symBinAddr: 0x2110, symSize: 0x48 }
+...
