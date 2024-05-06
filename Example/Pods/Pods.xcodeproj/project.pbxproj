@@ -45,8 +45,8 @@
 		B3F75D115D5150C258F5E68404751010 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D373F3519BB20A8A602F5D3DB1B612 /* ConstraintConstantTarget.swift */; };
 		B4F9C9EC1B3F1689AE56BB719AE5439C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47B6B726229837C8FFEEB4334412B2 /* ConstraintDirectionalInsetTarget.swift */; };
 		B56E2F382BE8B331004A5E08 /* CrumbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E2F372BE8B331004A5E08 /* CrumbTests.swift */; };
-		B57159E32BE8B40800A7059A /* Crumb in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBE46959FD168B234101F130901AA33 /* Crumb */; };
-		B57159E42BE8B40800A7059A /* Crumb in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBE46959FD168B234101F130901AA33 /* Crumb */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B57159F12BE8B96A00A7059A /* Crumb in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBE46959FD168B234101F130901AA33 /* Crumb */; settings = {ATTRIBUTES = (Required, ); }; };
+		B57159F22BE8B96A00A7059A /* Crumb in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBE46959FD168B234101F130901AA33 /* Crumb */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA93EFAD59E1F65A245339E90759DBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BE355F69F84788D334FDAC7D1CD9B8C4 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A598465C16CDE7D54CB37FAAE8EEDB /* ConstraintDirectionalInsets.swift */; };
 		BE605E942FD4E6494954665D1096F5D1 /* Pods-Crumb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99AD807830F1F282A50F5585BA8626C /* Pods-Crumb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,7 +73,7 @@
 			remoteGlobalIDString = 8A8DB685241263AFDF5E6B20FE67B93A;
 			remoteInfo = "SnapKit-SnapKit_Privacy";
 		};
-		B57159E52BE8B40800A7059A /* PBXContainerItemProxy */ = {
+		B57159E92BE8B89400A7059A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -104,13 +104,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B57159E72BE8B40800A7059A /* Embed Frameworks */ = {
+		B57159F32BE8B96A00A7059A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B57159E42BE8B40800A7059A /* Crumb in Embed Frameworks */,
+				B57159F22BE8B96A00A7059A /* Crumb in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +217,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57159E32BE8B40800A7059A /* Crumb in Frameworks */,
+				B57159F12BE8B96A00A7059A /* Crumb in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,12 +608,12 @@
 				B56E2F312BE8B331004A5E08 /* Sources */,
 				B56E2F322BE8B331004A5E08 /* Frameworks */,
 				B56E2F332BE8B331004A5E08 /* Resources */,
-				B57159E72BE8B40800A7059A /* Embed Frameworks */,
+				B57159F32BE8B96A00A7059A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B57159E62BE8B40800A7059A /* PBXTargetDependency */,
+				B57159EA2BE8B89400A7059A /* PBXTargetDependency */,
 			);
 			name = CrumbTests;
 			productName = CrumbTests;
@@ -643,6 +643,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				B57159EB2BE8B8E000A7059A /* XCRemoteSwiftPackageReference "Crumb" */,
+			);
 			productRefGroup = 1E325A62AFC613926AA3483A88395787 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -806,10 +809,10 @@
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
 			targetProxy = C1D6B7C87B8FB4FE864590F379AEDDAC /* PBXContainerItemProxy */;
 		};
-		B57159E62BE8B40800A7059A /* PBXTargetDependency */ = {
+		B57159EA2BE8B89400A7059A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 57C4DEFD7574E1184B13848A9851C332 /* Crumb */;
-			targetProxy = B57159E52BE8B40800A7059A /* PBXContainerItemProxy */;
+			targetProxy = B57159E92BE8B89400A7059A /* PBXContainerItemProxy */;
 		};
 		F5C977E9C475423FF1C54ED65847ED46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1415,6 +1418,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B57159EB2BE8B8E000A7059A /* XCRemoteSwiftPackageReference "Crumb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gomminjae/Crumb";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

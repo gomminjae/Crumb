@@ -1,0 +1,15 @@
+{
+  "originHash" : "81b255da565a57ce2b26a2fbce3cecdeb1f2d43b2a733049f9d1a3c5d4ac20da",
+  "pins" : [
+    {
+      "identity" : "crumb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gomminjae/Crumb",
+      "state" : {
+        "revision" : "c6a6014df2ef4c4e173c138b5125c85beaf22c3b",
+        "version" : "0.1.2"
+      }
+    }
+  ],
+  "version" : 3
+}

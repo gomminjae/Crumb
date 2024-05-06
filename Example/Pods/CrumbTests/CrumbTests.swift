@@ -6,9 +6,7 @@
 //
 
 import XCTest
-import Crumb_Tests
-import Crumb
-import UIKit
+@testable import Crumb
 
 class CrumbTests: XCTestCase {
     var crumbView: CrumbView!
